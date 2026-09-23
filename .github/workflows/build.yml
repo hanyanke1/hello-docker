@@ -1,4 +1,4 @@
-name: Build
+name: Demo
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  demo:
     runs-on: ubuntu-latest
 
     steps:
